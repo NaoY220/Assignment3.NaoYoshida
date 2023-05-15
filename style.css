@@ -1,0 +1,251 @@
+/* ---- grid-column ---- */
+
+header {
+    display: grid;
+    grid-template-columns: repeat(２, 1fr);
+    grid-template-rows: repeat(２, 1fr);
+}
+
+.complogo {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.nav {
+    grid-row-start: 2;
+}
+
+.splash {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.address {
+    display: grid;
+    grid-template-columns: repeat(２, 1fr);
+}
+
+.address2 {
+    grid-column-start: 2;
+}
+
+.provides {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+/* ---- typography n background---- */
+
+main {
+    font-family: 'Aileron', sans-serif;
+    font-size: 1.02rem;
+    text-align: center;
+
+    background-color: #ebfde7;
+}
+
+header {
+    font-size: 1.2rem;
+    background-color: #52932f;
+    border-bottom: 1rem solid #c38643;
+}
+
+.complogo img {
+    max-width: 100%;
+}
+
+.download {
+    color: #afd29c;
+    background-color: #1f3d0e;
+    width: 15rem;
+    padding: 0.4rem;
+    text-align: center;
+}
+
+.download i{
+    font-size: 2rem;
+}
+
+.download a {
+    color: #afd29c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav a {
+    color: #1f3d0e;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+.splash {
+    background-image: url("images/leaf-back.png");
+    height: 30rem;
+}
+
+.splash h1 {
+    font-family: 'La unica', sans-serif;
+    font-size: 6rem;
+    color: #000;
+    text-shadow: 0.1rem 0.1rem 0 #FFF, -0.1rem -0.1rem 0 #FFF,
+        -0.1rem 0.1rem 0 #FFF, 0.1rem -0.1rem 0 #FFF;
+    line-height: 6rem;
+}
+
+
+.splash a {
+    font-size: 1.5rem;
+    width: 14rem;
+    background-color: #afd29c;
+    box-shadow: 0 0 0 0.2rem #FFFFFF, 0 0 0 0.4rem #1f3d0e, 0 0 0 0.5rem #FFFFFF;
+    text-decoration: none;
+    color: #1f3d0e;
+}
+
+h2 {
+    color: #275d08;
+    font-size: 1.72rem;
+    text-decoration: underline;
+}
+
+h3 {
+    color: #275d08;
+    font-size: 1.22rem;
+    text-decoration: underline;
+}
+
+.welcome{
+    margin: 3.2rem;
+}
+
+.address1{
+    border-right: solid #5a5a5a;
+}
+
+.address{
+    color: #5a5a5a;
+}
+
+
+
+
+footer {
+    border-top: 1rem solid #c38643;
+    background-color: #52932f;
+    color: #1f3d0e;
+}
+
+footer i {
+    font-size: 2.7rem;
+}
+
+footer h3 {
+    text-decoration: underline;
+    color: #1f3d0e;
+}
+
+
+
+
+
+
+
+/* ---- margin/padding/display ---- */
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    align-items: center;
+}
+
+.complogo {
+    margin-left: 1.4rem;
+}
+
+.download {
+    margin-top: 2.2rem;
+    margin-bottom: 0.6rem;
+    margin-left: 3.5rem;
+}
+
+.nav {
+    margin-bottom: 2.2rem;
+}
+
+.nav a{
+    margin-right: 3rem;
+}
+
+
+.splash h1 {
+    margin-top: 4rem;
+    margin-bottom: auto;
+}
+
+.splash a{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: auto;
+}
+
+.address{
+    margin-top: 2rem;
+}
+
+
+.provides{
+    margin-top: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+article{
+    margin: 0.5rem;
+}
+
+.provides p{
+    text-align: left;
+    text-justify: inter-ideograph;
+    margin-right: 2rem;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 1.4rem;
+}
+
+footer h3 {
+    margin-top: 0%;
+}
+
+footer i {
+    margin-left: .35rem;
+    margin-right: .35rem;
+}
+
+footer p {
+    margin-top: .7rem;
+    line-height: 1.5rem;
+}
+
+
+/* ---- resize element ---- */
+
+img{
+    max-width: 100%;
+}
